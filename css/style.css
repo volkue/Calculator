@@ -1,4 +1,4 @@
-.calculator {
+.calc {
     position: relative;
     width: 411px;
     height: 731px;
@@ -6,7 +6,7 @@
     background: #FFFFFF;
 }
 
-.calc-body {
+.calc__body {
     position: absolute;
     width: 222px;
     height: 265px;
@@ -16,8 +16,7 @@
     border-radius: 10px;
 }
 
-button,
-[type="button"] {
+.calc__button {
     background: #F5F5F5;
     border: 2px solid #000000;
     box-sizing: border-box;
@@ -28,7 +27,7 @@ button,
     height: 33px;
 }
 
-.output {
+.calc__output {
     position: absolute;
     width: 192px;
     height: 33px;
@@ -40,80 +39,78 @@ button,
     border-radius: 5px;
 }
 
-#numberOne {
-    display: inline-block;
+.calc__number-one {
     left: 102px;
     top: 137px;
 }
 
-#numberTwo {
+.calc__number-two {
     left: 155px;
     top: 137px;
 }
 
-#numberThree {
+.calc__number-three {
     left: 208px;
     top: 137px;
 }
 
-#numberFour {
+.calc__number-four {
     left: 102px;
     top: 190px;
 }
 
-#numberFive {
+.calc__number-five {
     left: 155px;
     top: 190px;
 }
 
-#numberSix {
+.calc__number-six {
     left: 208px;
     top: 190px;
 }
 
-#numberSeven {
+.calc__number-seven {
     left: 102px;
     top: 243px;
 }
 
-#numberEight {
+.calc__number-eight {
     left: 155px;
     top: 243px;
 }
 
-#numberNine {
+.calc__number-nine {
     left: 208px;
     top: 243px;
 }
 
-#plus {
+.calc__plus {
     left: 261px;
     top: 137px;
 }
 
-#minus {
+.calc__minus {
     left: 261px;
     top: 190px;
 }
 
-#multiply {
+.calc__multiply {
     left: 261px;
     top: 243px;
 }
 
-#divide {
+.calc__divide {
     left: 261px;
     top: 296px;
 }
 
-#BackSpace {
+.calc__back-space {
     left: 208px;
     top: 296px;
 }
 
-#Equil {
+.calc__equil {
     width: 86px;
-    height: 33px;
     left: 102px;
     top: 296px;
 }
