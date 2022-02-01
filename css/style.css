@@ -1,9 +1,21 @@
+/* styles implement from Figma sketch*/
+
+@font-face { font-family: digital; 
+    src: url('/css/fonts/digital-7.ttf'); } 
+    
+ * {
+    font-family: digital,  sans-serif;
+    font-size: 1.2rem;
+   
+ }
+
 .calc {
     position: relative;
     width: 411px;
     height: 731px;
     margin: auto;
     background: #FFFFFF;
+    font-family: digital,  sans-serif;
 }
 
 .calc__body {
@@ -28,6 +40,7 @@
 }
 
 .calc__output {
+    box-sizing: border-box;
     position: absolute;
     width: 192px;
     height: 33px;
@@ -37,6 +50,10 @@
     background: #F5F5F5;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+     font-weight: bold;
+     text-align: right;
+    padding: .4rem ;
+   
 }
 
 .calc__number-one {
@@ -67,6 +84,7 @@
 .calc__number-six {
     left: 208px;
     top: 190px;
+    
 }
 
 .calc__number-seven {
@@ -104,15 +122,20 @@
     top: 296px;
 }
 
-.calc__back-space {
+.calc__null {
     left: 208px;
     top: 296px;
 }
 
 .calc__equil {
-    width: 86px;
+   
+    left: 155px;
+    top: 296px;
+}
+.calc__button.clear {
     left: 102px;
     top: 296px;
+    background-color: rgb(199, 155, 150);
 }
 
 .back-img {
